@@ -6,7 +6,7 @@ The project supports ontology-based analysis of Parkinson’s disease trajectori
 
 ---
 
-# Objectives
+## Objectives
 
 This project aims to:
 
@@ -17,7 +17,7 @@ This project aims to:
 
 ---
 
-# Conceptual Architecture
+## Conceptual Architecture
 
 PPMI longitudinal data  
 → variable-to-ontology mapping  
@@ -27,60 +27,46 @@ PPMI longitudinal data
 
 ---
 
-# Repository Structure
+## Repository Structure
 
+```text
 ppmi-ontology-alignment/
-│
-├── ontologies/
-│ Source ontologies and bridge ontology
-│
-├── mapping/
-│ Variable-to-ontology mapping definitions
-│
-├── notebooks/
-│ Colab notebooks for ontology loading, mapping, and analysis
-│
-├── src/
-│ Reusable Python modules for ontology processing and population
-│
-├── output/
-│ Generated ontology instances and analysis results
-│
-└── requirements.txt
-│ Python dependencies
+├── ontologies/          # Source ontologies and bridge ontology
+├── mapping/             # Variable-to-ontology mapping definitions
+├── notebooks/           # Colab notebooks for ontology loading, mapping, and analysis
+├── src/                 # Reusable Python modules for ontology processing and population
+├── output/              # Generated ontology instances and analysis results
+└── requirements.txt     # Python dependencies
+```
 
 ---
 
-# Ontologies
+## Ontologies
 
 This project uses:
 
 - Parkinson’s Disease Ontology (PDON)
 - Movement Disorder Ontology (PMDO)
 
-These ontologies are integrated through a bridge ontology that links PPMI data variables to ontology concepts.
+These ontologies are integrated through a bridge ontology that links PPMI variables to ontology concepts.
 
 ---
 
-# Data
+## Data
 
 PPMI data are not distributed in this repository.
 
-PPMI data must be obtained from:
-
-https://www.ppmi-info.org/
-
-and stored locally or in Google Drive when running Colab notebooks.
+PPMI data must be obtained from the official PPMI portal and stored locally or in Google Drive when running Colab notebooks.
 
 ---
 
-# Reproducibility
+## Reproducibility
 
 All ontology mappings, ontology population procedures, and analysis workflows are implemented as reproducible Python pipelines and Colab notebooks.
 
 ---
 
-# Requirements
+## Requirements
 
 Python 3.10+
 
@@ -95,22 +81,22 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ---
 
-# Usage
+## Usage
 
 Open notebooks from the `notebooks/` folder using:
 
 - Google Colab  
-- or  
-- a local Jupyter environment  
+- or a local Jupyter environment  
 
 and run them sequentially.
 
 ---
 
-# Scientific Scope
+## Scientific Scope
 
 This repository supports research on:
 
@@ -121,7 +107,7 @@ This repository supports research on:
 
 ---
 
-# Status
+## Status
 
 Active research project.
 
@@ -129,13 +115,13 @@ Ontology mappings and pipelines are under continuous development.
 
 ---
 
-# License
+## License
 
 Specify license before publication (recommended: MIT or Apache 2.0).
 
 ---
 
-# Contact
+## Contact
 
 **Maintainer:** [Your Name]  
 **Institution:** [Your Institution]
