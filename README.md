@@ -123,5 +123,5 @@ Specify license before publication (recommended: MIT or Apache 2.0).
 
 ## Contact
 
-**Maintainer:** [Your Name]  
-**Institution:** [Your Institution]
+**Maintainer:** Augusto Ielo
+**Institution:** IRCCS Centro Neurolesi Bonino-Pulejo
