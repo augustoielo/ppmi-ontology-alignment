@@ -98,7 +98,7 @@ pip install -r requirements.txt
 
 ---
 
-## Usage
+# Usage
 
 Open notebooks from the `notebooks/` folder using:
 
@@ -110,7 +110,7 @@ and run them sequentially.
 
 ---
 
-## Scientific Scope
+# Scientific Scope
 
 This repository supports research on:
 
@@ -121,7 +121,7 @@ This repository supports research on:
 
 ---
 
-## Status
+# Status
 
 Active research project.
 
@@ -129,13 +129,13 @@ Ontology mappings and pipelines are under continuous development.
 
 ---
 
-## License
+# License
 
 Specify license before publication (recommended: MIT or Apache 2.0).
 
 ---
 
-## Contact
+# Contact
 
 **Maintainer:** [Your Name]  
 **Institution:** [Your Institution]
