@@ -10,8 +10,10 @@ VisitMeta,EVENT_ID,,,VISIT_META,,"Visit identifier; used to mint ppmi:Visit IRI 
 VisitMeta,visit_date,,,VISIT_META,,"Visit timestamp; attach to Visit (xsd:gYearMonth or xsd:date, depending on source).",struct
 VisitMeta,YEAR,,,VISIT_META,,Visit time index; attach to Visit (integer).,struct
 VisitMeta,age_at_visit,,,VISIT_META,,Contextual covariate; attach to Visit (recommended: Visit data property).,struct
+Observation,updrs1_score,,,PMDO,http://www.case.edu/PMDO#mds_updrs_part_i_summary_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
+Observation,updrs2_score,,,PMDO,http://www.case.edu/PMDO#mds_updrs_part_ii_summary_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
 Observation,updrs3_score,,,PMDO,http://www.case.edu/PMDO#mds_updrs_part_iii_summary_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
-Observation,updrs_totscore,,,PMDO,http://www.case.edu/PMDO#MovementDisorderSocietyUnifiedParkinsonsDiseaseRatingScale,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
+Observation,updrs4_score,,,PMDO,http://www.case.edu/PMDO#mds_updrs_part_iv_summary_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
 Observation,hy,,,PMDO,http://www.case.edu/PMDO#code_upd2hy_hoehn_and_yahr_stage,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
 Observation,moca,,,PMDO,http://www.case.edu/PMDO#moca_total_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
 Observation,upsit,,,PMDO,http://www.case.edu/PMDO#upsit_total_score,"Create an Observation instance for each (Subject, Visit, Variable). Link via ppmi:observesConcept to TargetIRI; store value in ppmi:hasValue.",exact
